@@ -17,6 +17,8 @@ require("lspconfig").efm.setup {
         languages = {
             typescript = { prettier },
             javascript = { prettier },
+            ["javascriptreact"] = { prettier },
+            ["typescriptreact"] = { prettier },
             html = { prettier },
             css = { prettier },
             clangd = { prettier },

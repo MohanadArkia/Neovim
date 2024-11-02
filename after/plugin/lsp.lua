@@ -1,14 +1,12 @@
 local lsp = require("lsp-zero")
 
 lsp.ensure_installed({
-  'tsserver',
+  'ts_ls',
   'html',
   'cssls',
   'clangd',
   'eslint',
-  'hls',
   'jdtls',
-  'csharp_ls',
 })
 
 lsp.preset("recommended")
